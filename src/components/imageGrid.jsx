@@ -25,7 +25,7 @@ const ImageGrid = () => {
           key={image.id}
           src={image.urls.small}
           alt={image.alt_description}
-          className="border rounded-lg hover:cursor-pointer"
+          className="border rounded-lg hover:cursor-pointer object-cover"
         />
       ))}
     </div>
